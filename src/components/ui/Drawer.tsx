@@ -72,7 +72,6 @@ const Drawer: React.FC<DrawerProps> = ({
       >
         {/* Drawer Close Button */}
         <Button
-          variant="gray"
           className="absolute flex justify-start mt-10 border-none py-0"
           onClick={onClose}
         >

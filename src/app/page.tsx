@@ -14,10 +14,25 @@ export default function Home() {
           height={38}
           priority
         />
-        <Text as="h1" className="text-black">
-          Test
+        <Text as="h1" className="text-black text-[52px] font-light">
+          Crypto Academy
         </Text>
-        <Button className="bg-red-500 text-[20px]">Test</Button>
+        <Text as="h1" className="text-black text-[52px] font-normal">
+          Crypto Academy
+        </Text>
+        <Text as="h1" className="text-black text-[52px] font-medium">
+          Crypto Academy
+        </Text>
+        <Text as="h1" className="text-black text-[52px] font-semibold">
+          Crypto Academy
+        </Text>
+        <Text as="h1" className="text-black text-[52px] font-bold">
+          Crypto Academy
+        </Text>
+        <Text as="h1" className="text-black text-[52px] font-extrabold">
+          Crypto Academy
+        </Text>
+        <Button className="">get started</Button>
         <ol className="list-inside list-decimal text-sm/6 text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
           <li className="mb-2 tracking-[-.01em]">
             Get started by editing{" "}
